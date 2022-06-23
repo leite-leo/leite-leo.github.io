@@ -32,14 +32,15 @@ main {
 }
 
 aside img {
-  display: inline-block;
   padding-top: 100px;
 }
 
 aside {
   border: 10px solid cadetblue;
+  border-bottom: 0;
+  border-left: 0;
   width: 350px;
-  height: 800px;
+  height: 1010px;
   text-align: center;
   display: inline-block;
   float: left;
@@ -81,7 +82,7 @@ aside #sobre {
 }
 
 article {
-  border: 10px solid cadetblue;
+  border: 2px solid cadetblue;
   font-family: Arial, Helvetica, sans-serif;
   color: cadetblue;
   width: 900px;
